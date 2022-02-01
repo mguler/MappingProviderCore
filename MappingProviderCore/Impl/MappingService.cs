@@ -20,16 +20,10 @@ namespace MappingProviderCore.Impl
         /// </summary>
         private readonly IList<Delegate> _mappingsCache = new List<Delegate>();
 
-        /// <summary>
-        /// Default constructor
-        /// </summary>
-        public MappingService()
-        {
-
-        }
+        private Func<Type, object> _dependencyResolverCallback;
 
         /// <summary>
-        /// contstructor for injecting predefined mapping configurations.  
+        /// constructor for injecting predefined mapping configurations.  
         /// </summary>
         /// <param name="mappingConfigurations">An array of mapping configuration</param>
         public MappingService(IMappingConfiguration[] mappingConfigurations)
@@ -38,8 +32,7 @@ namespace MappingProviderCore.Impl
             {
                 mappingConfiguration.Configure(this);
             }
-        }
-
+        }        
         /// <summary>
         /// This method creates an instance of the type given in the TTarget parameter and maps source object's properties to the target instance
         /// </summary>
@@ -86,11 +79,43 @@ namespace MappingProviderCore.Impl
                                                                      ?.ParameterType == sourceType);
             if (mapper == null)
             {
-                throw new Exception($"Mapping configuration for {sourceType} to {targetType.Name} does not exists");
+                throw new Exception($"Mapping configuration for {sourceType} to {targetType} does not exists");
             }
 
-            var result = mapper.DynamicInvoke(source, target);
+            List<object> parameters = new List<object>();
+            parameters.Add(source);
+            parameters.Add(target);
+
+            mapper.Method.GetParameters().Where(parameterInfo => parameterInfo.Position > 1).ToList().ForEach(parameterInfo =>
+            {
+                if (_dependencyResolverCallback == null) 
+                {
+                    throw new Exception("mapper need to dependencies to be resolved but no dependency resolver has set");
+                }
+                var parameter = _dependencyResolverCallback(parameterInfo.ParameterType);
+                parameters.Add(parameter);
+            });
+
+            var result = mapper.DynamicInvoke((object?[]?)parameters.ToArray());
             return result;
+        }
+
+        internal void RegisterMapper(Delegate func)
+        {
+            //if (func.Method.GetParameters().Length < 2)
+            //{
+            //    throw new ArgumentException("mapper function must have minimum 2 input parameters");
+            //}
+
+            var alreadyExists = _mappingsCache.Any(mapping => mapping.Method.ReturnType == func.Method.ReturnType &&
+                                                                 mapping.Method.GetParameters().FirstOrDefault()
+                                                                     ?.ParameterType == func.Method.GetParameters().FirstOrDefault()
+                                                                     ?.ParameterType);
+            if (alreadyExists)
+            {
+                throw new Exception($"Mapping configuration for {func.Method.GetParameters().FirstOrDefault().ParameterType.FullName} to {func.Method.ReturnType.Name} has already been defined before");
+            }
+            _mappingsCache.Add(func);
         }
 
         /// <summary>
@@ -99,15 +124,15 @@ namespace MappingProviderCore.Impl
         /// <typeparam name="TSource">source type</typeparam>
         /// <typeparam name="TTarget">target type</typeparam>
         /// <param name="func">the method which supplies mapping service between the types given in the type parameters</param>
-        public void Register<TSource, TTarget>(Func<TSource, TTarget, TTarget> func)
-        {
-            var alreadyExists = _mappingsCache.Any(mapping => mapping.GetType() == func.GetType());
-            if (alreadyExists)
-            {
-                throw new Exception($"Mapping configuration for {typeof(TSource)} to {typeof(TTarget)} has already been defined before");
-            }
-            _mappingsCache.Add(func);
-        }
+        public void Register<TSource, TTarget>(Func<TSource, TTarget, TTarget> func) => RegisterMapper(func);
+        public void Register<TSource, TTarget, TDependency1>(Func<TSource, TTarget, TDependency1, TTarget> func) => RegisterMapper(func);
+        public void Register<TSource, TTarget, TDependency1, TDependency2>(Func<TSource, TTarget, TDependency1, TDependency2, TTarget> func) => RegisterMapper(func);
+        public void Register<TSource, TTarget, TDependency1, TDependency2, TDependency3>(Func<TSource, TTarget, TDependency1, TDependency2, TDependency3, TTarget> func) => RegisterMapper(func);
+        public void Register<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4>(Func<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4, TTarget> func) => RegisterMapper(func);
+        public void Register<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4, TDependency5>(Func<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4, TDependency5, TTarget> func) => RegisterMapper(func);
+        public void Register<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4, TDependency5, TDependency6>(Func<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4, TDependency5, TDependency6, TTarget> func) => RegisterMapper(func);
+        public void Register<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4, TDependency5, TDependency6, TDependency7>(Func<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4, TDependency5, TDependency6, TDependency7, TTarget> func) => RegisterMapper(func);
+        public void SetDependencyResolver(Func<Type, object> func) => _dependencyResolverCallback = func;
     }
 }
 

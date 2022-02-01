@@ -36,6 +36,9 @@ namespace MappingProviderCore.Abstract
         /// <returns>an instance of target type</returns>
         object Map(object source, Type targetType);
         object Map(object source, object target);
+
+        void SetDependencyResolver(Func<Type, object> func); 
+
         /// <summary>
         /// this definition supplies abstraction for mapper registration 
         /// </summary>
@@ -43,6 +46,12 @@ namespace MappingProviderCore.Abstract
         /// <typeparam name="TTarget">target type</typeparam>
         /// <param name="func">mapper function</param>
         void Register<TSource, TTarget>(Func<TSource, TTarget, TTarget> func);
-
+        public void Register<TSource, TTarget, TDependency1>(Func<TSource, TTarget, TDependency1, TTarget> func) => Register(func);
+        public void Register<TSource, TTarget, TDependency1, TDependency2>(Func<TSource, TTarget, TDependency1, TDependency2, TTarget> func) => Register(func);
+        public void Register<TSource, TTarget, TDependency1, TDependency2, TDependency3>(Func<TSource, TTarget, TDependency1, TDependency2, TDependency3, TTarget> func) => Register(func);
+        public void Register<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4>(Func<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4, TTarget> func) => Register(func);
+        public void Register<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4, TDependency5>(Func<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4, TDependency5, TTarget> func) => Register(func);
+        public void Register<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4, TDependency5, TDependency6>(Func<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4, TDependency5, TDependency6, TTarget> func) => Register(func);
+        public void Register<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4, TDependency5, TDependency6, TDependency7>(Func<TSource, TTarget, TDependency1, TDependency2, TDependency3, TDependency4, TDependency5, TDependency6, TDependency7, TTarget> func) => Register(func);
     }
 }
