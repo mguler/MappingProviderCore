@@ -60,7 +60,6 @@ namespace MappingProviderCore.Impl
 
         public TTarget Map<TTarget>(object source, object target)
         {
-
             var result = Map(source, target);
             return (TTarget)result;
         }
@@ -102,10 +101,6 @@ namespace MappingProviderCore.Impl
 
         internal void RegisterMapper(Delegate func)
         {
-            //if (func.Method.GetParameters().Length < 2)
-            //{
-            //    throw new ArgumentException("mapper function must have minimum 2 input parameters");
-            //}
 
             var alreadyExists = _mappingsCache.Any(mapping => mapping.Method.ReturnType == func.Method.ReturnType &&
                                                                  mapping.Method.GetParameters().FirstOrDefault()
