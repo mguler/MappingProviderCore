@@ -1,3 +1,3 @@
 # MappingProviderCore
 
-This lib allows us to configure type mappings in separated layer. 
+This library allows you to configure object to objects mappings in a separate layer. 
