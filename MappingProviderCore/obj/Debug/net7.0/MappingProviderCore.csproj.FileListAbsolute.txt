@@ -1,0 +1,12 @@
+C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\bin\Debug\net7.0\MappingProviderCore.deps.json
+C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\bin\Debug\net7.0\MappingProviderCore.dll
+C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\bin\Debug\net7.0\MappingProviderCore.pdb
+C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\MappingProviderCore.csproj.AssemblyReference.cache
+C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\MappingProviderCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\MappingProviderCore.AssemblyInfoInputs.cache
+C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\MappingProviderCore.AssemblyInfo.cs
+C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\MappingProviderCore.csproj.CoreCompileInputs.cache
+C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\MappingProviderCore.dll
+C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\refint\MappingProviderCore.dll
+C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\MappingProviderCore.pdb
+C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\ref\MappingProviderCore.dll
