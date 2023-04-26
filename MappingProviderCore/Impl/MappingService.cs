@@ -89,7 +89,7 @@ namespace MappingProviderCore.Impl
             {
                 if (_dependencyResolverCallback == null) 
                 {
-                    throw new Exception("mapper needs dependencies to be resolved but no dependency resolver has set");
+                    throw new Exception("The mapper has dependencies that need to be resolved, but no dependency resolver has been set.");
                 }
                 var parameter = _dependencyResolverCallback(parameterInfo.ParameterType);
                 parameters.Add(parameter);
