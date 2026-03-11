@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kelly\\source\\repos\\MappingProviderCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3F9D68-F1F9-4CE5-9352-B55CD56054D6}|MappingProviderCore\\MappingProviderCore.csproj|c:\\users\\kelly\\source\\repos\\mappingprovidercore\\mappingprovidercore\\impl\\mappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3F9D68-F1F9-4CE5-9352-B55CD56054D6}|MappingProviderCore\\MappingProviderCore.csproj|solutionrelative:mappingprovidercore\\impl\\mappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3F9D68-F1F9-4CE5-9352-B55CD56054D6}|MappingProviderCore\\MappingProviderCore.csproj|c:\\users\\kelly\\source\\repos\\mappingprovidercore\\mappingprovidercore\\abstract\\imappingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3F9D68-F1F9-4CE5-9352-B55CD56054D6}|MappingProviderCore\\MappingProviderCore.csproj|solutionrelative:mappingprovidercore\\abstract\\imappingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3F9D68-F1F9-4CE5-9352-B55CD56054D6}|MappingProviderCore\\MappingProviderCore.csproj|c:\\users\\kelly\\source\\repos\\mappingprovidercore\\mappingprovidercore\\abstract\\imappingserviceprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3F9D68-F1F9-4CE5-9352-B55CD56054D6}|MappingProviderCore\\MappingProviderCore.csproj|solutionrelative:mappingprovidercore\\abstract\\imappingserviceprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3F9D68-F1F9-4CE5-9352-B55CD56054D6}|MappingProviderCore\\MappingProviderCore.csproj|c:\\users\\kelly\\source\\repos\\mappingprovidercore\\mappingprovidercore\\impl\\mappingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3F9D68-F1F9-4CE5-9352-B55CD56054D6}|MappingProviderCore\\MappingProviderCore.csproj|solutionrelative:mappingprovidercore\\impl\\mappingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3F9D68-F1F9-4CE5-9352-B55CD56054D6}|MappingProviderCore\\MappingProviderCore.csproj|c:\\users\\kelly\\source\\repos\\mappingprovidercore\\mappingprovidercore\\mappingprovidercore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CF3F9D68-F1F9-4CE5-9352-B55CD56054D6}|MappingProviderCore\\MappingProviderCore.csproj|solutionrelative:mappingprovidercore\\mappingprovidercore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF3F9D68-F1F9-4CE5-9352-B55CD56054D6}|MappingProviderCore\\MappingProviderCore.csproj|c:\\users\\kelly\\source\\repos\\mappingprovidercore\\mappingprovidercore\\abstract\\imappingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF3F9D68-F1F9-4CE5-9352-B55CD56054D6}|MappingProviderCore\\MappingProviderCore.csproj|solutionrelative:mappingprovidercore\\abstract\\imappingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMappingContext.cs",
+              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\MappingProviderCore\\MappingProviderCore\\Abstract\\IMappingContext.cs",
+              "RelativeDocumentMoniker": "MappingProviderCore\\Abstract\\IMappingContext.cs",
+              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\MappingProviderCore\\MappingProviderCore\\Abstract\\IMappingContext.cs",
+              "RelativeToolTip": "MappingProviderCore\\Abstract\\IMappingContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T20:21:21.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingProviderCore.csproj",
+              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\MappingProviderCore\\MappingProviderCore\\MappingProviderCore.csproj",
+              "RelativeDocumentMoniker": "MappingProviderCore\\MappingProviderCore.csproj",
+              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\MappingProviderCore\\MappingProviderCore\\MappingProviderCore.csproj",
+              "RelativeToolTip": "MappingProviderCore\\MappingProviderCore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-09T18:15:11.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMappingServiceProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\MappingProviderCore\\MappingProviderCore\\Abstract\\IMappingServiceProvider.cs",
+              "RelativeDocumentMoniker": "MappingProviderCore\\Abstract\\IMappingServiceProvider.cs",
+              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\MappingProviderCore\\MappingProviderCore\\Abstract\\IMappingServiceProvider.cs",
+              "RelativeToolTip": "MappingProviderCore\\Abstract\\IMappingServiceProvider.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T18:00:48.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MappingConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\MappingProviderCore\\MappingProviderCore\\Impl\\MappingConfiguration.cs",
+              "RelativeDocumentMoniker": "MappingProviderCore\\Impl\\MappingConfiguration.cs",
+              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\MappingProviderCore\\MappingProviderCore\\Impl\\MappingConfiguration.cs",
+              "RelativeToolTip": "MappingProviderCore\\Impl\\MappingConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T17:22:59.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMappingConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\MappingProviderCore\\MappingProviderCore\\Abstract\\IMappingConfiguration.cs",
+              "RelativeDocumentMoniker": "MappingProviderCore\\Abstract\\IMappingConfiguration.cs",
+              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\MappingProviderCore\\MappingProviderCore\\Abstract\\IMappingConfiguration.cs",
+              "RelativeToolTip": "MappingProviderCore\\Abstract\\IMappingConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T16:01:38.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingService.cs",
+              "DocumentMoniker": "C:\\Users\\Kelly\\source\\repos\\MappingProviderCore\\MappingProviderCore\\Impl\\MappingService.cs",
+              "RelativeDocumentMoniker": "MappingProviderCore\\Impl\\MappingService.cs",
+              "ToolTip": "C:\\Users\\Kelly\\source\\repos\\MappingProviderCore\\MappingProviderCore\\Impl\\MappingService.cs",
+              "RelativeToolTip": "MappingProviderCore\\Impl\\MappingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T15:32:29.382Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

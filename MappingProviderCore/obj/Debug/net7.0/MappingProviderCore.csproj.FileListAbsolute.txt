@@ -10,3 +10,15 @@ C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\obj\Debug\ne
 C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\refint\MappingProviderCore.dll
 C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\MappingProviderCore.pdb
 C:\Users\murat\Source\Repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\ref\MappingProviderCore.dll
+C:\Users\Kelly\source\repos\MappingProviderCore\MappingProviderCore\bin\Debug\net7.0\MappingProviderCore.deps.json
+C:\Users\Kelly\source\repos\MappingProviderCore\MappingProviderCore\bin\Debug\net7.0\MappingProviderCore.dll
+C:\Users\Kelly\source\repos\MappingProviderCore\MappingProviderCore\bin\Debug\net7.0\MappingProviderCore.pdb
+C:\Users\Kelly\source\repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\MappingProviderCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kelly\source\repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\MappingProviderCore.AssemblyInfoInputs.cache
+C:\Users\Kelly\source\repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\MappingProviderCore.AssemblyInfo.cs
+C:\Users\Kelly\source\repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\MappingProviderCore.csproj.CoreCompileInputs.cache
+C:\Users\Kelly\source\repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\MappingProviderCore.sourcelink.json
+C:\Users\Kelly\source\repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\MappingProviderCore.dll
+C:\Users\Kelly\source\repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\refint\MappingProviderCore.dll
+C:\Users\Kelly\source\repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\MappingProviderCore.pdb
+C:\Users\Kelly\source\repos\MappingProviderCore\MappingProviderCore\obj\Debug\net7.0\ref\MappingProviderCore.dll
